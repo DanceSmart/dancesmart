@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="DanceSmart Contact Page" />
+  <title>DanceSmart - Contact</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="../images/dancesmart-logo.png" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="../css/contact.css" />
+
+  <!-- Reset default body margin to ensure full-width header -->
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo-container">
+      <img src="../images/dancesmart-logo.png" alt="DanceSmart Logo" class="logo">
+    </div>
+    <nav class="top-nav">
+      <a href="home.html">Home</a> &nbsp; | &nbsp;
+      <a href="gallery.html">Gallery</a> &nbsp; | &nbsp;
+      <a href="about.html">About</a> &nbsp; | &nbsp;
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Contact Form -->
+  <form id="contact_form" method="post">
+    <label for="fname">First Name:</label>
+    <input type="text" id="fname" name="fname" autocomplete="given-name">
+
+    <label for="lname">Last Name:</label>
+    <input type="text" id="lname" name="lname" autocomplete="family-name">
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" autocomplete="email">
+
+    <label for="mobile">Mobile:</label>
+    <input type="tel" id="mobile" name="mobile" autocomplete="tel">
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message"></textarea>
+
+    <br /><br />
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+  </form>
+
+  <!-- Footer -->
+  <footer>
+    <p>DanceSmart &copy; 2025</p>
+  </footer>
+
+</body>
+</html>

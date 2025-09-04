@@ -1,0 +1,129 @@
+/* Logo container */
+.logo-container {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.logo {
+  max-width: 180px;
+  height: auto;
+}
+
+/* Header styling */
+header {
+  background-color: #0074D9; /* Blue header */
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+/* Top navigation links */
+.top-nav {
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.top-nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  margin: 5px 15px;
+}
+
+.top-nav a:hover {
+  text-decoration: underline;
+}
+
+/* Form styling */
+form {
+  max-width: 400px;
+  width: 100%;
+  margin: 1rem auto;
+  background-color: #f2f2f2;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+}
+
+/* Make labels and inputs stack vertically */
+form label,
+form input,
+form textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 0.75rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  padding: 0.5rem;
+  border: 1px solid #f2f2f2;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+button {
+  background-color: rgb(37, 129, 235);
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  margin: 8px 0;
+  padding: 14px 20px;
+  width: 100%;
+}
+
+button:focus,
+button:hover {
+  filter: brightness(125%);
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media screen and (min-width: 600px) {
+  form {
+    width: 70%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+  form {
+    width: 50%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+  form {
+    width: 40%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+  form {
+    width: 30%;
+  }
+}
+
+/* Footer styling */
+footer {
+  background-color: #0074D9; /* Match header blue */
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+  font-size: 1rem;
+  margin-top: 40px;
+}

@@ -1,0 +1,124 @@
+/* Reset box-sizing */
+* {
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  margin: 0;
+  font-family: "TT Norms", Arimo, Helvetica, sans-serif;
+  line-height: 1.6;
+  background-color: #fff;
+  color: #333;
+}
+
+/* Logo container */
+.logo-container {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.logo {
+  max-width: 180px;
+  height: auto;
+}
+
+/* Header styling */
+header {
+  background-color: #0074D9; /* Blue header */
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+/* Top navigation links */
+.top-nav {
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.top-nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  margin: 5px 15px;
+}
+
+.top-nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main content styling */
+main.content {
+  max-width: 960px;
+  margin: 20px auto;
+  padding: 0 10px;
+}
+
+article h2 {
+  font-size: 1.8rem;
+  color: #0074D9;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+article p {
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+article ul {
+  list-style: disc inside;
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+
+article ul li {
+  margin-bottom: 10px;
+}
+
+/* Footer styling */
+footer {
+  background-color: #0074D9; /* Match header blue */
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+  font-size: 1rem;
+  margin-top: 40px;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  header h1 {
+    font-size: 1.6rem;
+  }
+
+  article h2 {
+    font-size: 1.5rem;
+  }
+
+  .top-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .top-nav a {
+    margin: 5px 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  header h1 {
+    font-size: 1.4rem;
+  }
+
+  article h2 {
+    font-size: 1.3rem;
+  }
+
+  main.content {
+    padding: 0 5px;
+  }
+}
